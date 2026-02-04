@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  width: 350px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+li {
+  list-style: none;
+  padding: 8px;
+  margin-top: 6px;
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.present {
+  text-decoration: line-through;
+  background: #c8e6c9;
+}
+
+.deleteBtn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 3px 6px;
+  cursor: pointer;
+}
