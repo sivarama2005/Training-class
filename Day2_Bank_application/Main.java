@@ -53,7 +53,7 @@ class SavingsAccount extends Account {
 
     public void deposit(double amount) {
         balance += amount;
-        System.out.println("Rs. " + amount + " deposited");
+        System.out.println("Rs. " + amount + " deposited ");
     }
 
     public void withdraw(double amount) {

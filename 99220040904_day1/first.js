@@ -20,7 +20,7 @@ function calc(){
             return para.innerHTML=`Answer is: ${a*b}`;
             break;
         case '/':
-            return para.innerHTML=`Answer is: ${a/b}`;
+            return para.innerHTML=`Answer is : ${a/b}`;
             break;
         default:
             return para.innerHTML="not valid"

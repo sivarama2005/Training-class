@@ -9,7 +9,7 @@ const Student = ({ student }) => {
     phone: "+91 98765 43210",
     department: "Computer Science",
     year: "3rd Year",
-    gender: "Male",
+    gender: "Male ",
     dob: "12-05-2003",
     address: "Hyderabad, Telangana"
   };

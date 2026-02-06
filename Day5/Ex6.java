@@ -8,7 +8,7 @@ public class Ex6 {
         Consumer<Integer> consumer=(value)->System.out.println(value);
         Consumer consumer1=System.out::println;
 
-        System.out.println("Printing using consumer functional interface as lambda expression");
+        System.out.println("Printing using consumer functional interface as lambda expression ");
         numbers.forEach(consumer);
 
         System.out.println("Printing using consumer function interface as method reference");

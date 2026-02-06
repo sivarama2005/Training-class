@@ -21,7 +21,7 @@ function Weather() {
       const geoData = await geoRes.json();
 
       if (!geoData.results) {
-        setError("City not found");
+        setError("City not found ");
         return;
       }
 
