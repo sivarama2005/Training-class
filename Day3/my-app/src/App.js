@@ -3,7 +3,7 @@ import Calculator from "./Calculator";
 import Reg from "./Reg";
 
 function App() {
-  return <Reg/>;
+  return <Weather/>;
 }
 
 export default App;
